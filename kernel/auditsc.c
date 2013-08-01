@@ -731,7 +731,7 @@ void audit_filter_inodes(struct task_struct *tsk, struct audit_context *ctx)
 {
 	int i;
 	struct audit_entry *e;
-	enum audit_state state;
+	enum audit_state state = 0;
 
 	if (audit_pid && tsk->tgid == audit_pid)
 		return;
