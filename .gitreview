@@ -1,0 +1,5 @@
+[gerrit]
+host=gerrit.liquidsmooth.net
+port=29418
+project=LiquidSmooth-Devices/android_kernel_asus_grouper.git
+defaultbranch=kitkat
